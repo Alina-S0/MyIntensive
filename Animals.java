@@ -1,21 +1,15 @@
 public class Animals {
         public static void main(String[] args) {
             Dog dog1 = new Dog("Вася");
-            // Dog dog2 = new Dog("");
-
             Cat cat1 = new Cat("Лили");
             Cat cat2 = new Cat("Граф");
-          //  Cat cat3 = new Cat("Рыжик");
-
+        
             System.out.println("Животных всего: " + Animal.getAnimalCount());
             System.out.println("Собак всего: " + Dog.getDogCount());
             System.out.println("Котов всего: " + Cat.getCatCount());
 
             dog1.run(450);
             dog1.swim(9);
-
-            //dog2.run(600);
-           // dog2.swim(15);
 
             cat1.run(100);
             cat1.swim(10);
@@ -39,7 +33,6 @@ public class Animals {
                 }
             }
             System.out.println("Осталось еды: " + foods.getFood() + " ед.");
-
 
         }
 
